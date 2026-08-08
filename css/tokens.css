@@ -1,24 +1,22 @@
 /*
-  Design tokens extracted via Playwright from the live computed styles /
-  CSS custom properties of thenextcraft.org/es (Aug 2026 snapshot).
-  Fonts, colors, spacing scale, and overlay recipes are 1:1 with the source;
-  section content below is this site's own.
+  Design tokens. Type scale/spacing extracted via Playwright from the live
+  computed styles of thenextcraft.org/es (Aug 2026 snapshot). Color ramp is
+  a custom 5-step blue palette (darkest to lightest: Deep Space Blue x2,
+  Baltic Blue, Blue Bell) requested in place of the original neutral one.
 */
 :root {
-  --font-pixel: "Silkscreen", monospace;
-  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
-  --font-script: "Borel", cursive;
+  --font-mono: "Inter", sans-serif;
 
-  --screen: #1a1a17;
-  --screen-dim: #161613;
-  --text: #f2f0e9;
-  --text-dim: #a2a096;
-  --bright: #e9e7de;
-  --bone: #e6e3d8;
-  --line: #8c8a82;
-  --border: rgba(140, 138, 130, 0.45);
-  --border-soft: rgba(140, 138, 130, 0.15);
-  --void: #1a1a17;
+  --screen-dim: #0e2132;   /* card/terminal background */
+  --screen: #0e2132;       /* page background */
+  --line: #2a628f;         /* Baltic Blue — shadows/labels/footer */
+  --text-dim: #3e92cc;     /* Blue Bell — secondary/muted text */
+  --text: #3e92cc;         /* Blue Bell (lightest) — primary text/headings */
+  --bright: #3e92cc;       /* Blue Bell — emphasis */
+  --bone: #3e92cc;         /* Blue Bell — button background */
+  --border: rgba(42, 98, 143, 0.55);      /* Baltic Blue */
+  --border-soft: rgba(42, 98, 143, 0.25); /* Baltic Blue, soft */
+  --void: #0e2132;         /* same as --screen — button text */
 
   --radius-btn: 3px;
 

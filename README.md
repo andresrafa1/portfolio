@@ -24,6 +24,5 @@ npm run verify      # Playwright check: viewport overflow + screenshots
 
 ## Content TODO
 
-- [ ] Replace the contact email placeholder in `index.html` (`#contacto`)
-- [ ] Replace the GitHub / LinkedIn / X placeholder links in `index.html` (`#contacto`)
-- [ ] Fill in the real Karu-AI project description (`#proyectos`)
+- [ ] Replace the contact email placeholder in `index.html` (`#contact`)
+- [ ] Replace the GitHub / LinkedIn / X placeholder links in `index.html` (`#contact`)
