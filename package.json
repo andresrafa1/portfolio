@@ -1,0 +1,15 @@
+{
+  "name": "andres-rafael-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio site, retro-terminal style.",
+  "private": true,
+  "scripts": {
+    "serve": "python3 -m http.server 8420",
+    "verify": "node scripts/verify.mjs"
+  },
+  "license": "UNLICENSED",
+  "type": "module",
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}
