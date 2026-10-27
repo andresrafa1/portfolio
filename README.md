@@ -24,5 +24,5 @@ npm run verify      # Playwright check: viewport overflow + screenshots
 
 ## Content TODO
 
-- [ ] Replace the contact email placeholder in `index.html` (`#contact`)
-- [ ] Replace the GitHub / LinkedIn / X placeholder links in `index.html` (`#contact`)
+- [x] Replace the contact email placeholder in `index.html` (`#contact`)
+- [x] Replace the LinkedIn / Instagram / X placeholder links in `index.html` (`#contact`)
