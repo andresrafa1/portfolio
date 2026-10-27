@@ -8,11 +8,10 @@
     return;
   }
 
-  const lines = [
-    'ANDRES_RAFAEL SYSTEM',
-    'LOADING PORTFOLIO...',
-    'READY.',
-  ];
+  const es = document.documentElement.lang === 'es';
+  const lines = es
+    ? ['ANDRES_RAFAEL SYSTEM', 'CARGANDO PORTAFOLIO...', 'LISTO.']
+    : ['ANDRES_RAFAEL SYSTEM', 'LOADING PORTFOLIO...', 'READY.'];
 
   let li = 0, ci = 0;
   const TYPE_MS = 28;
