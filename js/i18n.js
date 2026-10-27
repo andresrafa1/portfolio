@@ -43,7 +43,6 @@
       'contact.heading': "Let's talk?",
       'contact.body': 'For proposals, projects, or questions — reach out.',
       'contact.cta': 'Send an email →',
-      'footer.ready': 'READY.',
     },
     es: {
       title: 'Andrés Rafael — Growth Manager',
@@ -86,7 +85,6 @@
       'contact.heading': '¿Hablamos?',
       'contact.body': 'Para propuestas, proyectos o consultas, escríbeme.',
       'contact.cta': 'Enviar un email →',
-      'footer.ready': 'LISTO.',
     },
   };
 
