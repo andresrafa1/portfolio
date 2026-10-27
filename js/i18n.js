@@ -92,7 +92,8 @@
   const read = () => { try { return localStorage.getItem(KEY); } catch (e) { return null; } };
   const save = (v) => { try { localStorage.setItem(KEY, v); } catch (e) { /* private mode */ } };
 
-  const initial = read() || ((navigator.language || 'en').toLowerCase().startsWith('es') ? 'es' : 'en');
+  // English by default; Spanish only once a visitor picks it with the toggle.
+  const initial = read() === 'es' ? 'es' : 'en';
 
   function apply(lang) {
     const t = STRINGS[lang];
